@@ -78,7 +78,7 @@ if 'VERSION' in os.environ:
 if mode == '1':
     projects = {
         "stix_shifter": [
-            'stix_shifter_utils',
+           # 'stix_shifter_utils',
             'stix_shifter',
             'stix_shifter_modules'
         ]
