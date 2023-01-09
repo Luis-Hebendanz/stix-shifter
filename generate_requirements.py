@@ -22,9 +22,11 @@ def generate_requirements():
 
     with open('requirements.txt', 'w') as out_file:
         for item in install_requires:
-            no_vers = item.split("=")[0]     
-            out_file.write(no_vers)
-            print(no_vers)
+            nv = item.split("=")
+
+            v = nv[0] + '>=' + nv[-1]
+            out_file.write(v)
+            print(v)
             out_file.write('\n')
 
 if __name__ == "__main__":
