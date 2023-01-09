@@ -13,7 +13,7 @@ else:
 from generate_requirements import generate_requirements
 generate_requirements()
 
-subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements-dev.txt"])
+#subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements-dev.txt"])
 
 
 
