@@ -85,7 +85,7 @@ if mode == '1':
     }
 elif mode == 'N':
     projects = {
-        "stix_shifter_utils": ["stix_shifter_utils"],
+      #  "stix_shifter_utils": ["stix_shifter_utils"],
         "stix_shifter": ["stix_shifter"]
     }
     fill_connectors(projects, "stix_shifter_modules")
